@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=PT+Sans+Narrow&family=Poppins:wght@200;400;500;600;800&family=Raleway&family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: font-size 1s ease;
+}
+
+body {
+    font-family: Poppins;
+    background: linear-gradient(245.59deg, #5d7a89 0%, #567a8f 28.53%, #6f8b99 75.52%);
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 100px 20%;
+    color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+main h1, .counter {
+    font-size: 5em;
+}
+
+main button {
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 26px;
+    border: none;
+    cursor: pointer;
+    background: #F0F0F0;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:600px){
+    main h1, .counter {
+        font-size: 4em;
+    }
+
+    main button {
+        padding: 14px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:400px){
+    main h1, .counter {
+        font-size: 3em;
+    }
+
+    main button {
+        padding: 12px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:300px){
+    main h1, .counter {
+        font-size: 2em;
+    }
+
+    main button {
+        padding: 10px;
+        font-size: 10px;
+    }
+}
