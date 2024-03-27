@@ -2,8 +2,8 @@
 var displayTime = document.getElementById("timer");
 var controlBtn = document.getElementById("controlBtn");
 const audio = new Audio('alarm.wav');
-var minutes=0;
-var seconds=10;
+var minutes=25;
+var seconds=0;
 var mycounter;
 var flag = 0;
 
